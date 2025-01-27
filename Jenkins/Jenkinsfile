@@ -2,14 +2,14 @@ pipeline{
     agent any
 
     stages{
-        stage('Where'){
+        stage('Hello'){
             steps{
-                sh'echo "Where are you"'
+                sh'echo "Hello guys"'
             }
         }
-        stage('Why'){
+        stage('How'){
             steps{
-                sh'echo "Why"'
+                sh'echo "How are you"'
             }
         }
     }
