@@ -1,0 +1,16 @@
+pipeline{
+    agent any
+
+    stages{
+        stage('Where'){
+            steps{
+                sh'echo "Where are you"'
+            }
+        }
+        stage('Why'){
+            steps{
+                sh'echo "Why"'
+            }
+        }
+    }
+}
