@@ -12,5 +12,9 @@ pipeline{
                 sh'echo "How are you?"'
             }
         }
+        stage('where'){
+            steps{
+                sh'echo"Where are you"'
+            }
     }
 }
