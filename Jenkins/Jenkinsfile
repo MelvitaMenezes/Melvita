@@ -9,7 +9,7 @@ pipeline{
         }
         stage('How'){
             steps{
-                sh'echo "How are you"'
+                sh'echo "How are you?"'
             }
         }
     }
