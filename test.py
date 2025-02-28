@@ -1,1 +1,1 @@
-echo "Hi, it's me"
+echo "Hi me"
